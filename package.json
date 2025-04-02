@@ -1,0 +1,30 @@
+{
+  "name": "login-system",
+  "version": "1.0.0",
+  "description": "A simple Node.js backend for handling user authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs-extra": "^11.1.1",
+    "mongoose": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "authentication",
+    "login",
+    "express",
+    "nodejs"
+  ],
+  "author": "Praneeth",
+  "license": "MIT"
+}
